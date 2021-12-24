@@ -4,6 +4,11 @@ plugins {
     id 'signing'
 }
 
+wrapper {
+    // change here and run "gradlew wrapper" to update (only for local installations)
+    gradleVersion '7.3.3'
+}
+
 repositories {
     jcenter()
 }
